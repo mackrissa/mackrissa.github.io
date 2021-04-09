@@ -1,0 +1,109 @@
+
+html,body{
+  height: 100%
+}
+
+body {
+  padding:0;
+  margin:0;
+  background-image: linear-gradient(
+    #c0d4da,#46535b);
+}
+
+footer{
+  font-family: 'Nunito', sans-serif;
+}
+
+h2{
+  font-family: 'Kanit', sans-serif;
+}
+ 
+h1{font-family: 'Press Start 2P', cursive;}
+
+a {
+  color: #FFA07A
+}
+
+header h1 {
+  font-size: 48px
+}
+
+header h2 {
+  font-size: 24px
+}
+
+
+header,nav,main {
+  padding:20px 30px
+}
+
+h1,h2{
+margin:0
+}
+
+.profilepic {
+  float:left;
+  margin: 5%
+}
+
+p{
+  clear:both
+}
+
+
+blockquote {
+  text-align:center;
+}
+blockquote p {
+  font-size:30px;
+  font-family:monospace;
+}
+
+.home {
+  background: url(../photo/lol.jpg) no-repeat 50% /cover;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: 55px
+  backround:white
+  text-align:center
+  padding:1px;
+   /* however tall you want the footer to be */
+}
+
+.fab {
+  font-size: 24px
+}
+
+/* CONTACT STYLES
+-----------------------------------------*/
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
