@@ -1,7 +1,4 @@
 
-html,body{
-  height: 100%
-}
 
 body {
   padding:0;
@@ -10,32 +7,46 @@ body {
     #c0d4da,#46535b);
 }
 
-footer{
+footer,nav{
   font-family: 'Nunito', sans-serif;
+
 }
 
-h2{
-  font-family: 'Kanit', sans-serif;
+h1,.end{
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #4E4E4E;
+  font-size:140px;
+  text-transform: uppercase;
 }
 
-h1{font-family: 'Press Start 2P', cursive;}
+h2,h3,h4{
+  font-family: 'Segoe', sans-serif;
+  text-transform: uppercase;
+  font-size:90px;
+}
+/* PHOTOS */
+.sukkah,.netflix,.cat{
+width: 980;
+height: 500;
+}
+
+.tim,.trickshot,.parklet{
+  width: 720;
+height: 400;
+}
+.logo{ 
+  box-sizing: border-box;
+  max-width: 10%;
+  display: block;
+  margin: 5%
+}
+
 
 a {
-  color: #FFA07A
+  color: #FFA07A;
 }
 
-header h1 {
-  font-size: 48px
-}
-
-header h2 {
-  font-size: 24px
-}
-
-
-header,nav,main {
-  padding:20px 30px
-}
 
 h1,h2{
 margin:0
@@ -50,39 +61,10 @@ p{
   clear:both
 }
 
-
-blockquote {
-  text-align:center;
-}
-blockquote p {
-  font-size:30px;
-  font-family:monospace;
-}
-
-.home {
-  background: url(../photo/lol.jpg) no-repeat 50% /cover;
-}
-
-.page-wrap {
-  min-height: 100%;
-  margin-bottom: -55px; /* must be the same height as footer */
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-footer,
-.page-wrap:after {
-  height: 55px
-  backround:white
-  text-align:center
-  padding:1px;
-   /* however tall you want the footer to be */
-}
-
 .fab {
   font-size: 24px
 }
+
 
 /* CONTACT STYLES
 -----------------------------------------*/
