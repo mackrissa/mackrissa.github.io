@@ -26,20 +26,22 @@ h2,h3,h4{
   font-size:90px;
 }
 /* PHOTOS */
-.sukkah,.netflix,.cat{
-width: 980;
-height: 500;
+.sukkah img,.netflix img,.cat img{
+  width: 980px;
+  height: 500px;
 }
 
-.tim,.trickshot,.parklet{
-  width: 720;
-height: 400;
+.tim img,.trickshot img,.parklet img{
+  width: 720px;
+  height: 400px;
 }
-.logo{ 
-  box-sizing: border-box;
-  max-width: 10%;
+
+.logo
+img { 
+  /* box-sizing: border-box; */
+  max-width: 5%;
   display: block;
-  margin: 5%
+  margin: 2%
 }
 
 
