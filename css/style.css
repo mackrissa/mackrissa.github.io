@@ -7,10 +7,9 @@ body {
     #c0d4da,#46535b);
 }
 
-footer,nav{
+/* footer,nav{
   font-family: 'Nunito', sans-serif;
-
-}
+} */
 
 h1,.end{
   font-family: 'Orbitron', sans-serif;
@@ -20,20 +19,28 @@ h1,.end{
   text-transform: uppercase;
 }
 
-h2,h3,h4{
-  font-family: 'Segoe', sans-serif;
+h2,h3,h4,.mail,nav{
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-size:90px;
+  color: #4E4E4E;
+  white-space: nowrap;
 }
 /* PHOTOS */
-.sukkah img,.netflix img,.cat img{
-  width: 980px;
+.sukkah,.netflix,.cat{
+  width: 750px;
   height: 500px;
+  object-fit: cover;
+  /* width: 100%;
+  height: 500px; */
 }
 
-.tim img,.trickshot img,.parklet img{
-  width: 720px;
-  height: 400px;
+.main-right{
+  width: 675px;
+  height: 440px;
+  object-fit:cover;
+  display: flex;
+  align-items:flex-end;
 }
 
 .logo
@@ -46,12 +53,17 @@ img {
 
 
 a {
-  color: #FFA07A;
+  color: black;
+}
+
+.mail{
+  text-align:right;
 }
 
 
 h1,h2{
 margin:0
+padding:5%
 }
 
 .profilepic {
@@ -60,7 +72,8 @@ margin:0
 }
 
 p{
-  clear:both
+  font-family: 'Kanit';
+  text-align:center
 }
 
 .fab {
